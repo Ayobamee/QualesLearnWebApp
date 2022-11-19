@@ -1,0 +1,196 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-08T09:29:56.750Z",
+    "end": "2022-10-08T09:31:03.941Z",
+    "duration": 67191,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3b9eb26b-9fa3-483f-becc-76d80cb09e7a",
+      "title": "",
+      "fullFile": "cypress/e2e/RegressionTest.js",
+      "file": "cypress/e2e/RegressionTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f8622d54-326c-4e42-8cb6-452afe825430",
+          "title": "Quales Course Management Regression Test suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "b0649eee-ce10-40e1-9087-07d89a126db0",
+              "title": "In app tests",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Validate that users with valid credentials can login to the app successfully",
+                  "fullTitle": "Quales Course Management Regression Test suite In app tests Validate that users with valid credentials can login to the app successfully",
+                  "timedOut": null,
+                  "duration": 7028,
+                  "state": "passed",
+                  "speed": "medium",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "//Test successful login\ncy.checkCoursesDisplay({});",
+                  "err": {},
+                  "uuid": "18afcbab-554e-4faf-8f8e-ca639afc7d2e",
+                  "parentUUID": "b0649eee-ce10-40e1-9087-07d89a126db0",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Validate that courses can be created successfully",
+                  "fullTitle": "Quales Course Management Regression Test suite In app tests Validate that courses can be created successfully",
+                  "timedOut": null,
+                  "duration": 3889,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "//Test courses are added successfully.\ncy.addCourses({});",
+                  "err": {},
+                  "uuid": "1be5e05b-1c94-48a0-ab2e-b6426141d20e",
+                  "parentUUID": "b0649eee-ce10-40e1-9087-07d89a126db0",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Validate that created course can be modified",
+                  "fullTitle": "Quales Course Management Regression Test suite In app tests Validate that created course can be modified",
+                  "timedOut": null,
+                  "duration": 47826,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "//Modify courses\ncy.editCourses({});",
+                  "err": {},
+                  "uuid": "b1162954-4335-4594-bf38-b729d3862d5d",
+                  "parentUUID": "b0649eee-ce10-40e1-9087-07d89a126db0",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "18afcbab-554e-4faf-8f8e-ca639afc7d2e",
+                "1be5e05b-1c94-48a0-ab2e-b6426141d20e",
+                "b1162954-4335-4594-bf38-b729d3862d5d"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 58743,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "8250c632-83b7-4562-99f7-e1d1b3f4e08a",
+              "title": "Tear Down",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Validate that users can logout of the app successfully",
+                  "fullTitle": "Quales Course Management Regression Test suite Tear Down Validate that users can logout of the app successfully",
+                  "timedOut": null,
+                  "duration": 8388,
+                  "state": "passed",
+                  "speed": "medium",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "//Test successful logout\ncy.clickLogout({});",
+                  "err": {},
+                  "uuid": "287f21c1-798d-4402-b2f1-a065690e8c7a",
+                  "parentUUID": "8250c632-83b7-4562-99f7-e1d1b3f4e08a",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "287f21c1-798d-4402-b2f1-a065690e8c7a"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 8388,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}
